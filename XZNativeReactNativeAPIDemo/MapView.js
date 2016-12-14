@@ -28,7 +28,7 @@ class MapView extends Component {
     return (
 
       	<XZ 
-      	style = {{width:Dimensions.get('window').width,height:Dimensions.get('window').height,backgroundColor:'red'}}
+      	style = {{width:Dimensions.get('window').width,height:Dimensions.get('window').height,backgroundColor:'red',marginTop:64}}
       	{...this.props}
         onChange={this._onChange.bind(this)}/>
     );
